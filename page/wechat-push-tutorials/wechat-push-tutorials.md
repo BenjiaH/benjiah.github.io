@@ -27,6 +27,6 @@
 
 ## 5.填写信息收集表
 
-- [信息收集表（点我）](https://benjiah.gitee.io/r/Qaq)
+- [信息收集表（点我）](https://benjiah.gitee.io/r/r/Qaq)
 
 ## 6.告知我您的微信名字以及选择的服务，稍后我将为您加入队列
