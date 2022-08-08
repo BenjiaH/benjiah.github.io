@@ -1,11 +1,3 @@
-import os
-import sys
-
-os.chdir("redirect")
-file_name = f"{sys.argv[2]}.html"
-f = open(file_name, 'wb')
-
-page_content = '''\
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -18,7 +10,7 @@ page_content = '''\
 </body>
 <body>
 <script language="javascript" type="text/javascript">
-    const redirect_url = "{redirect_url}";
+    const redirect_url = "https://www.wjx.top/vm/tzIm39z.aspx";
     // console.log(redirect_url);
     setTimeout("location.href=" + "'" + redirect_url + "'", 500);
 </script>
@@ -31,5 +23,3 @@ page_content = '''\
 </h1>
 </body>
 </html>
-'''.format(redirect_url=sys.argv[1])
-f.write(page_content.encode("utf-8"))
