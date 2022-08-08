@@ -81,7 +81,7 @@ def main():
     ret = domain_csv(DOMAIN_CSV_PATH)
     if domain in ret[0]:
         ret = fetch_record(ret[2], domain)
-        msg = f"This domain[{domain}] is existed: https://benjiah.gitee.io/r/{ret}"
+        msg = f"This domain[{domain}] is existed: https://benjiah.gitee.io/r/r/{ret}"
     else:
         try:
             max_length = max(len(s) for s in ret[1])
@@ -97,7 +97,7 @@ def main():
                 max_length += 1
         make_page(f"{random_redirect}.html", load_tmpl(HTML_TEMPLATE_PATH), domain)
         append_record(DOMAIN_CSV_PATH, [domain, random_redirect])
-        msg = f"Successful to make the page and append the record. https://benjiah.gitee.io/r/{random_redirect}"
+        msg = f"Successful to make the page and append the record. https://benjiah.gitee.io/r/r/{random_redirect}"
     print(msg)
 
 
