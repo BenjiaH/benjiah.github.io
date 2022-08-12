@@ -88,7 +88,6 @@ def main():
     except IndexError:
         random_redirect = ""
     csv_data = domain_csv(DOMAIN_CSV_PATH)
-    print(csv_data[1][1:])
     if domain_no_prefix in csv_data[0]:
         redirect = fetch_record(csv_data[2], domain)
         msg = f"This domain[{domain}] is existed: {URL_HEADER}/{redirect}"
