@@ -1,4 +1,4 @@
-DOMAIN,REDIRECT,TIME
+ORIGINAL_URL,REDIRECT_URL,RECORD_TIME
 http://www.example.com,example,2022-08-08 00:00:00 Asia/Shanghai
 https://www.wjx.top/vm/tzIm39z.aspx,Qaq,2022-08-08 16:49:14 Asia/Shanghai
 http://sc.ftqq.com/3.version,LhF,2022-08-08 17:29:36 Asia/Shanghai
